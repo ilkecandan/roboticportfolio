@@ -7,3 +7,6 @@ class Blogs(models.Model):
     description=models.CharField(max_length=1200,null=True)
     date=models.DateField(auto_now_add=True,null=True)
     likes=models.IntegerField(default=0)
+    links=models.CharField(max_length=1200,null=True)
+    video=models.CharField(max_length=1200,null=True)
+
